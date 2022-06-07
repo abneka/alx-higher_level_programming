@@ -1,1 +1,1 @@
-this is a python
+this is python function
