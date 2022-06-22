@@ -1,9 +1,10 @@
 #!/usr/bin/python3
-""" Create a class Square that is define based ont 0-square.py
-"""
-
-
 class Square:
-    """ This class has a private instance called size """
+    """Represents a square.
+    Private instance attribute: size.
+    Instantiation with size (no type/value verification).
+    """
+
     def __init__(self, size):
+        """Initializes the data."""
         self.__size = size
